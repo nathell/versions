@@ -1,0 +1,3 @@
+{:secrets #include #join [#env HOME "/.secrets.edn"]
+ :github {:username "nathell"
+          :api-token #ref [:secrets :github-api-token]}}
